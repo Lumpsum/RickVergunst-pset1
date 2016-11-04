@@ -10,23 +10,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.rick.rickvergunst_pset1.MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/bodyImg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mr. Potatohead"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView"
-        android:textSize="32sp"/>
-
-    <ImageView
-    android:id="@+id/body"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:src="@mipmap/body"
-    android:layout_below="@+id/textView"
-    android:layout_centerHorizontal="true"/>
+        android:layout_gravity="center"
+        android:src="@mipmap/body"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
 
     <ImageView
         android:id="@+id/armsImg"
@@ -34,88 +26,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:src="@mipmap/arms"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone" />
-    <ImageView
-        android:id="@+id/eyebrowsImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@mipmap/eyebrows"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone" />
-
-    <ImageView
-        android:id="@+id/eyesImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@mipmap/eyes"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone" />
-
-    <ImageView
-        android:id="@+id/glassesImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@mipmap/glasses"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone" />
-
-    <ImageView
-        android:id="@+id/hatImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@mipmap/hat"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone" />
-
-    <ImageView
-        android:id="@+id/mouthImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@mipmap/mouth"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone" />
-
-    <ImageView
-        android:id="@+id/mustacheImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@mipmap/mustache"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone" />
-
-    <ImageView
-        android:id="@+id/noseImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@mipmap/nose"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone" />
-
-    <ImageView
-        android:id="@+id/shoesImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@mipmap/shoes"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
 
     <ImageView
         android:id="@+id/earsImg"
@@ -123,9 +37,98 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:src="@mipmap/ears"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/eyebrowsImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/eyebrows"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/eyesImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/eyes"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/glassesImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/glasses"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/hatImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/hat"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/mouthImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/mouth"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/mustacheImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/mustache"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/noseImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/nose"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/shoesImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/shoes"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
 
     <GridLayout
         android:id="@+id/GridLayout1"
@@ -134,10 +137,11 @@
         android:columnCount="2"
         android:orientation="horizontal"
         tools:context=".GridLayoutActivity"
-        android:layout_below="@+id/bodyImg"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/bodyImg"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
 
 
         <CheckBox android:id="@+id/arms"
@@ -255,4 +259,17 @@
             />
 
         </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mr. Potatohead"
+        android:id="@+id/textView"
+        android:textSize="32sp"
+        android:layout_toRightOf="@+id/bodyImg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp" />
 </RelativeLayout>
